@@ -4,6 +4,10 @@ Use Angular 5 with Electron. This is a basic template.
 Access to Electron API from Angular has not been added to this template yet.
 
 ## Run App
+`npm install`
+
+`npm install electron --save-dev`
+
 `npm run electron`
 
 modify commands in package.json if needed.

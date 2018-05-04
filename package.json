@@ -2,13 +2,10 @@
   "name": "ang-electron",
   "version": "0.0.0",
   "license": "MIT",
+  "main": "main.js",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "electron": "ng build && electron .",
+    "electron-aot": "ng build --prod && electron ."
   },
   "private": true,
   "dependencies": {
@@ -26,6 +23,7 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
+    "@angular-devkit/core": "^0.6.0",
     "@angular/cli": "1.6.0",
     "@angular/compiler-cli": "^5.0.0",
     "@angular/language-service": "^5.0.0",
